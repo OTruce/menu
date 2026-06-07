@@ -1,0 +1,107 @@
+{
+  "categories": [
+    { "id": 1, "name": "Beer", "section": "bar" },
+    { "id": 2, "name": "Wine", "section": "bar" },
+    { "id": 3, "name": "Whiskey", "section": "bar" },
+    { "id": 4, "name": "Cocktails", "section": "bar" },
+    { "id": 5, "name": "Spirits", "section": "bar" },
+    { "id": 6, "name": "Soft Drinks", "section": "bar" },
+    { "id": 7, "name": "Coffee", "section": "bar" },
+    { "id": 8, "name": "Mocktails", "section": "bar" },
+    { "id": 9, "name": "Shots", "section": "bar" },
+    { "id": 10, "name": "Ciders", "section": "bar" },
+
+    { "id": 11, "name": "Grill", "section": "kitchen" },
+    { "id": 12, "name": "Burgers", "section": "kitchen" },
+    { "id": 13, "name": "Pizza", "section": "kitchen" },
+    { "id": 14, "name": "Pasta", "section": "kitchen" },
+    { "id": 15, "name": "Seafood", "section": "kitchen" },
+    { "id": 16, "name": "Salads", "section": "kitchen" },
+    { "id": 17, "name": "Steaks", "section": "kitchen" },
+    { "id": 18, "name": "Soups", "section": "kitchen" },
+    { "id": 19, "name": "Breakfast", "section": "kitchen" },
+    { "id": 20, "name": "Desserts", "section": "kitchen" }
+  ],
+
+  "items": [
+    { "id": 1, "name": "Tusker Lager", "price": 250, "categoryId": 1 },
+    { "id": 2, "name": "Heineken", "price": 300, "categoryId": 1 },
+    { "id": 3, "name": "Guinness", "price": 280, "categoryId": 1 },
+
+    { "id": 4, "name": "Red Wine", "price": 1200, "categoryId": 2 },
+    { "id": 5, "name": "White Wine", "price": 1300, "categoryId": 2 },
+    { "id": 6, "name": "Rose Wine", "price": 1500, "categoryId": 2 },
+
+    { "id": 7, "name": "Jameson", "price": 3000, "categoryId": 3 },
+    { "id": 8, "name": "Jack Daniels", "price": 3500, "categoryId": 3 },
+    { "id": 9, "name": "Glenfiddich", "price": 5000, "categoryId": 3 },
+
+    { "id": 10, "name": "Mojito", "price": 600, "categoryId": 4 },
+    { "id": 11, "name": "Margarita", "price": 700, "categoryId": 4 },
+    { "id": 12, "name": "Pina Colada", "price": 800, "categoryId": 4 },
+
+    { "id": 13, "name": "Vodka", "price": 2500, "categoryId": 5 },
+    { "id": 14, "name": "Rum", "price": 2200, "categoryId": 5 },
+    { "id": 15, "name": "Gin", "price": 2400, "categoryId": 5 },
+
+    { "id": 16, "name": "Coke", "price": 120, "categoryId": 6 },
+    { "id": 17, "name": "Sprite", "price": 120, "categoryId": 6 },
+    { "id": 18, "name": "Fanta", "price": 120, "categoryId": 6 },
+
+    { "id": 19, "name": "Espresso", "price": 200, "categoryId": 7 },
+    { "id": 20, "name": "Cappuccino", "price": 250, "categoryId": 7 },
+    { "id": 21, "name": "Latte", "price": 300, "categoryId": 7 },
+
+    { "id": 22, "name": "Virgin Mojito", "price": 400, "categoryId": 8 },
+    { "id": 23, "name": "Berry Cooler", "price": 450, "categoryId": 8 },
+    { "id": 24, "name": "Tropical Punch", "price": 500, "categoryId": 8 },
+
+    { "id": 25, "name": "Tequila Shot", "price": 500, "categoryId": 9 },
+    { "id": 26, "name": "Vodka Shot", "price": 450, "categoryId": 9 },
+    { "id": 27, "name": "Whiskey Shot", "price": 600, "categoryId": 9 },
+
+    { "id": 28, "name": "Apple Cider", "price": 350, "categoryId": 10 },
+    { "id": 29, "name": "Pear Cider", "price": 380, "categoryId": 10 },
+    { "id": 30, "name": "Berry Cider", "price": 400, "categoryId": 10 },
+
+    { "id": 31, "name": "T-Bone Steak", "price": 1200, "categoryId": 11 },
+    { "id": 32, "name": "Chicken Wings", "price": 800, "categoryId": 11 },
+    { "id": 33, "name": "Grilled Ribs", "price": 1500, "categoryId": 11 },
+
+    { "id": 34, "name": "Beef Burger", "price": 700, "categoryId": 12 },
+    { "id": 35, "name": "Chicken Burger", "price": 650, "categoryId": 12 },
+    { "id": 36, "name": "Veggie Burger", "price": 600, "categoryId": 12 },
+
+    { "id": 37, "name": "Margherita Pizza", "price": 900, "categoryId": 13 },
+    { "id": 38, "name": "Pepperoni Pizza", "price": 1100, "categoryId": 13 },
+    { "id": 39, "name": "BBQ Chicken Pizza", "price": 1200, "categoryId": 13 },
+
+    { "id": 40, "name": "Carbonara", "price": 850, "categoryId": 14 },
+    { "id": 41, "name": "Bolognese", "price": 900, "categoryId": 14 },
+    { "id": 42, "name": "Alfredo", "price": 950, "categoryId": 14 },
+
+    { "id": 43, "name": "Grilled Fish", "price": 1000, "categoryId": 15 },
+    { "id": 44, "name": "Prawns", "price": 1200, "categoryId": 15 },
+    { "id": 45, "name": "Calamari", "price": 1100, "categoryId": 15 },
+
+    { "id": 46, "name": "Caesar Salad", "price": 600, "categoryId": 16 },
+    { "id": 47, "name": "Greek Salad", "price": 650, "categoryId": 16 },
+    { "id": 48, "name": "Avocado Salad", "price": 700, "categoryId": 16 },
+
+    { "id": 49, "name": "Ribeye Steak", "price": 1800, "categoryId": 17 },
+    { "id": 50, "name": "Fillet Steak", "price": 2000, "categoryId": 17 },
+    { "id": 51, "name": "Sirloin Steak", "price": 1700, "categoryId": 17 },
+
+    { "id": 52, "name": "Chicken Soup", "price": 400, "categoryId": 18 },
+    { "id": 53, "name": "Mushroom Soup", "price": 450, "categoryId": 18 },
+    { "id": 54, "name": "Tomato Soup", "price": 420, "categoryId": 18 },
+
+    { "id": 55, "name": "English Breakfast", "price": 800, "categoryId": 19 },
+    { "id": 56, "name": "Pancakes", "price": 600, "categoryId": 19 },
+    { "id": 57, "name": "Omelette", "price": 500, "categoryId": 19 },
+
+    { "id": 58, "name": "Chocolate Cake", "price": 500, "categoryId": 20 },
+    { "id": 59, "name": "Ice Cream", "price": 350, "categoryId": 20 },
+    { "id": 60, "name": "Cheesecake", "price": 550, "categoryId": 20 }
+  ]
+}
