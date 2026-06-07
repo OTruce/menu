@@ -145,7 +145,7 @@ body {
 
 .home {
   height: 100vh;
-  background-image: url("./images/draft-beer.jpg");
+  background-image: url("./images/barimg.jpg");
   background-size: cover;
   background-position: center;
   display: flex;
@@ -307,4 +307,95 @@ body {
 .price {
   margin-top: 10px;
   font-weight: bold;
+}
+
+h1 {
+  color: rgba(15, 15, 179, 0.986);
+}
+
+.category-section {
+  margin-bottom: 50px;
+}
+
+.category-title {
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #ccc;
+  color: white;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #f5f5f5;
+  border-radius: 12px;
+  overflow: hidden;
+  padding: 15px;
+  text-align: center;
+  transition: 0.3s;
+  color: #111;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-img {
+  height: 140px;
+  border-radius: 10px;
+  margin-bottom: 12px;
+  background-size: cover;
+  background-position: center;
+}
+
+.drink-image {
+  background-image: url("./images/drink.jpg");
+}
+
+.food-image {
+  background-image: url("./images/kitchen.jpg");
+}
+
+.desc {
+  font-size: 14px;
+  color: #111;
+}
+
+.origin {
+  font-size: 13px;
+  color: #888;
+}
+
+.price {
+  color: #111;
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.admin-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.edit-btn,
+.delete-btn {
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.edit-btn {
+  background: #f0ad4e;
+}
+
+.delete-btn {
+  background: #dc3545;
+  color: white;
 }

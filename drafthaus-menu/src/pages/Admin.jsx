@@ -78,7 +78,7 @@ export default function Admin() {
 
       <h3>Manage Items</h3>
 
-      {items.map(i => (
+      {/* {items.map(i => (
         <div key={i.id} className="card">
           {i.name} - Ksh {i.price}
 
@@ -90,7 +90,57 @@ export default function Admin() {
             Delete
           </button>
         </div>
-      ))}
+      ))} */}
+
+      <div className="grid">
+  {items.map((i) => {
+    const category = categories.find(
+      (c) => c.id === i.categoryId
+    );
+
+    return (
+      <div key={i.id} className="card admin-card">
+        <div
+          className={`card-img ${
+            category?.section === "bar"
+              ? "drink-image"
+              : "food-image"
+          }`}
+        />
+
+        <h3>{i.name}</h3>
+
+        <p className="desc">
+          {i.description || "House Special"}
+        </p>
+
+        <p className="origin">
+          {category?.name}
+        </p>
+
+        <div className="price">
+          Ksh {i.price}
+        </div>
+
+        <div className="admin-actions">
+          <button
+            className="edit-btn"
+            onClick={() => updatePrice(i.id)}
+          >
+            Edit
+          </button>
+
+          <button
+            className="delete-btn"
+            onClick={() => removeItem(i.id)}
+          >
+            Delete
+          </button>
+        </div>
+      </div>
+    );
+  })}
+</div>
     </div>
   );
 }

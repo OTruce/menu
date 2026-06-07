@@ -1,8 +1,8 @@
 
 
 import { useNavigate } from "react-router-dom";
-import barImg from "../images/beer.jpg";
-import kitchenImg from "../images/food.jpg";
+import barImg from "../images/drink.jpg";
+import kitchenImg from "../images/kitchen.jpg";
 
 export default function Home() {
   const navigate = useNavigate();
@@ -15,8 +15,9 @@ export default function Home() {
     <div className="home">
       <div className="overlay">
         <h1>Drafthaus</h1>
-        <p>Select your experience</p>
-
+        <p>Draft Beer 🍺 . Signature Cocktails 🍸 . Bitings 🍔 . Good Vibes 🎶 
+</p>
+        <p>Check out our Menu</p>
         <div className="card-buttons">
           <div className="choice-card" onClick={() => goToMenu("bar")}>
             <img src={barImg} alt="Bar" />
